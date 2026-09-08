@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spain, wherever you are · OneClickSpain</title>
+<meta name="description" content="OneClickSpain — connecting the global Spanish diaspora with all 17 regions of Spain.">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/index.html"><span class="mark">One</span>ClickSpain</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰ Menu</button>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="/regions/index.html">Regions</a>
+      <a href="/culture/index.html">Culture</a>
+      <a href="/live/index.html">Live</a>
+      <a href="/news/index.html">News</a>
+      <a href="/food-drink/index.html">Food & Drink</a>
+      <a href="/retail/index.html">Retail</a>
+      <a href="/visit/index.html">Visit Spain</a>
+      <a href="/events/index.html">Events</a>
+      <a href="/sport/index.html">Sport</a>
+      <a href="/communities/index.html">Communities</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero__inner">
+    <div>
+      <span class="hero__eyebrow-flag">
+        <span class="flag-stripe"><span class="flag-stripe__bars"></span></span>
+        <span class="eyebrow" style="margin:0;">SPAIN, WHEREVER YOU ARE</span>
+      </span>
+      <h1>Festivals, fiestas, <em>food</em> and flamenco.</h1>
+      <p class="hero__tagline">From every corner of Spain — one platform connecting Spanish communities around the world.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="/regions/index.html">Explore the regions</a>
+        <a class="btn btn--ghost" href="/communities/index.html">Find your community</a>
+      </div>
+    </div>
+    <div class="hero__map-wrap">
+      <div class="map-mount" data-interactive="true"></div>
+<p class="map-caption">Click a region to explore it — from Galicia's coast to Andalusia's sierra.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__head">
+    <span class="eyebrow">START HERE</span>
+    <h2>Wherever you're from, wherever you are now</h2>
+  </div>
+  <div class="section__body card-grid">
+    <div class="card">
+      <h3>17 regions, fully mapped</h3>
+      <p>Every autonomous community, its capital and its provinces — with local news and what's on close behind.</p>
+    </div>
+    <div class="card">
+      <h3>Culture beyond the postcard</h3>
+      <p>National culture overview down to the country's major cultural hubs, with original blogs and vlogs.</p>
+    </div>
+    <div class="card">
+      <h3>Events that pull you home</h3>
+      <p>Spanish festivals, championships and exhibitions happening worldwide — reasons to travel, wherever you live.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="section__head">
+    <span class="eyebrow" style="color:var(--saffron);">LIVE FROM SPAIN</span>
+    <h2>See it as it happens</h2>
+    <p style="color:rgba(251,245,234,0.8);">Live cams from plazas, coastlines and fiestas across the country.</p>
+  </div>
+  <div class="section__body">
+    <div class="content-pending" style="background:rgba(251,245,234,0.06);border-color:rgba(251,245,234,0.25);color:rgba(251,245,234,0.8);">
+      Live cam feeds are being sourced and will appear here — see the <a href="/live/index.html" style="text-decoration:underline;">Live page</a>.
+    </div>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <h4>OneClickSpain</h4>
+      <p style="max-width:34ch;color:rgba(251,245,234,0.75);font-size:0.9rem;">Festivals, fiestas, food and flamenco from every corner of Spain — one platform connecting Spanish communities around the world.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="/regions/index.html">Regions</a></li>
+        <li><a href="/culture/index.html">Culture</a></li>
+        <li><a href="/live/index.html">Live</a></li>
+        <li><a href="/news/index.html">News</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Spain Abroad</h4>
+      <ul>
+        <li><a href="/events/index.html">Events</a></li>
+        <li><a href="/communities/index.html">Communities</a></li>
+        <li><a href="/food-drink/index.html">Food &amp; Drink</a></li>
+        <li><a href="/sport/index.html">Sport</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Plan a Visit</h4>
+      <ul>
+        <li><a href="/visit/index.html">Visit Spain</a></li>
+        <li><a href="/retail/index.html">Retail</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-footer__bottom container">
+    <p style="margin:0;">© <span id="year"></span> OneClickSpain. Region map data adapted from <a href="https://www.npmjs.com/package/@svg-maps/spain" target="_blank" rel="noopener">@svg-maps/spain</a> (CC BY 4.0), based on the work of MapSVG.</p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
