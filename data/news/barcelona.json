@@ -3,8 +3,10 @@
   "region_slug": "catalonia",
   "stories": [
     {
-      "title": "Welcome to Barcelona's local news feed",
-      "summary": "This is a placeholder story. Once the Make.com pipeline is connected, real local news for Barcelona province will appear here automatically.",
+      "title_en": "Welcome to Barcelona's local news feed",
+      "summary_en": "This is a placeholder story. Once the Make.com pipeline is connected, real local news for Barcelona province will appear here automatically.",
+      "title_es": "Bienvenido al feed de noticias locales de Barcelona",
+      "summary_es": "Esta es una noticia de ejemplo. Cuando se conecte la automatización de Make.com, las noticias locales reales de la provincia de Barcelona aparecerán aquí automáticamente.",
       "link": "",
       "source": "OneClickSpain",
       "date": "2026-09-09"
