@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Toggle Demo · OneClickSpain</title>
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  .lang-toggle-btn {
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 100px;
+    padding: 8px 18px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 16px;
+  }
+  .lang-toggle-btn:hover { background: var(--terracotta); }
+  .demo-note {
+    max-width: 640px;
+    margin: 0 auto 40px;
+    padding: 16px 20px;
+    background: var(--paper-dim);
+    border: 1.5px dashed var(--line);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/index.html"><span class="mark">One</span>ClickSpain</a>
+    <nav class="main-nav" aria-label="Primary" style="flex:1;">
+      <a href="#" data-en="Regions" data-es="Regiones">Regions</a>
+      <a href="#" data-en="Culture" data-es="Cultura">Culture</a>
+      <a href="#" data-en="Live" data-es="En directo">Live</a>
+      <a href="#" data-en="News" data-es="Noticias">News</a>
+      <a href="#" data-en="Communities" data-es="Comunidades">Communities</a>
+    </nav>
+    <button class="lang-toggle-btn" id="lang-toggle" data-en="ES" data-es="EN">ES</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="section__body" style="max-width:720px;margin:0 auto;text-align:center;">
+    <div class="demo-note">
+      This is a standalone test page — it doesn't touch the real site. Click the round button, top right, to switch every piece of tagged text between English and Spanish at once. Your choice is remembered if you reload this page.
+    </div>
+
+    <span class="eyebrow" data-en="SPAIN, WHEREVER YOU ARE" data-es="ESPAÑA, ESTÉS DONDE ESTÉS">SPAIN, WHEREVER YOU ARE</span>
+    <h1 style="margin-top:10px;" data-en="Festivals, fiestas, food and flamenco." data-es="Festivales, fiestas, comida y flamenco.">Festivals, fiestas, food and flamenco.</h1>
+    <p class="hero__tagline" style="margin:18px auto;" data-en="From every corner of Spain — one platform connecting Spanish communities around the world." data-es="Desde cada rincón de España — una sola plataforma que conecta a las comunidades españolas de todo el mundo.">From every corner of Spain — one platform connecting Spanish communities around the world.</p>
+
+    <div class="card" style="text-align:left;margin-top:32px;">
+      <span class="eyebrow" data-en="SAMPLE STORY" data-es="NOTICIA DE EJEMPLO">SAMPLE STORY</span>
+      <h3 data-en="Barcelona's Sant Jordi festival draws record crowds" data-es="La fiesta de Sant Jordi en Barcelona atrae multitudes récord">Barcelona's Sant Jordi festival draws record crowds</h3>
+      <p data-en="Streets across the city filled with book and rose stalls as locals and visitors marked Catalonia's most-loved celebration of literature and romance." data-es="Las calles de la ciudad se llenaron de puestos de libros y rosas mientras vecinos y visitantes celebraban la fiesta catalana más querida de la literatura y el romance.">Streets across the city filled with book and rose stalls as locals and visitors marked Catalonia's most-loved celebration of literature and romance.</p>
+    </div>
+
+    <a class="btn btn--primary" href="#" style="margin-top:28px;display:inline-block;" data-en="Explore the regions" data-es="Explorar las regiones">Explore the regions</a>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var STORAGE_KEY = 'ocs_lang';
+  var toggle = document.getElementById('lang-toggle');
+  var taggedEls = document.querySelectorAll('[data-en][data-es]');
+
+  function apply(lang) {
+    taggedEls.forEach(function (el) {
+      el.textContent = lang === 'es' ? el.getAttribute('data-es') : el.getAttribute('data-en');
+    });
+    if (toggle) {
+      // button itself is tagged with the OPPOSITE label (what you'll switch TO)
+      toggle.textContent = lang === 'es' ? toggle.getAttribute('data-es') : toggle.getAttribute('data-en');
+    }
+    document.documentElement.lang = lang;
+  }
+
+  function getLang() {
+    return localStorage.getItem(STORAGE_KEY) || 'en';
+  }
+
+  var current = getLang();
+  apply(current);
+
+  if (toggle) {
+    toggle.addEventListener('click', function () {
+      current = current === 'en' ? 'es' : 'en';
+      localStorage.setItem(STORAGE_KEY, current);
+      apply(current);
+    });
+  }
+});
+</script>
+
+</body>
+</html>
