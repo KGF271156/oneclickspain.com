@@ -1,15 +1,1 @@
-{
-  "province": "Barcelona",
-  "region_slug": "catalonia",
-  "stories": [
-    {
-      "title_en": "Welcome to Barcelona's local news feed",
-      "summary_en": "This is a placeholder story. Once the Make.com pipeline is connected, real local news for Barcelona province will appear here automatically.",
-      "title_es": "Bienvenido al feed de noticias locales de Barcelona",
-      "summary_es": "Esta es una noticia de ejemplo. Cuando se conecte la automatización de Make.com, las noticias locales reales de la provincia de Barcelona aparecerán aquí automáticamente.",
-      "link": "",
-      "source": "OneClickSpain",
-      "date": "2026-09-09"
-    }
-  ]
-}
+{"name":"barcelona.json","path":"data/news/barcelona.json","sha":"f91163cd40d5ebff918716eba3fe05fbc7333ec1","size":665,"url":"https://api.github.com/repos/KGF271156/oneclickspain.com/contents/data/news/barcelona.json?ref=main","html_url":"https://github.com/KGF271156/oneclickspain.com/blob/main/data/news/barcelona.json","git_url":"https://api.github.com/repos/KGF271156/oneclickspain.com/git/blobs/f91163cd40d5ebff918716eba3fe05fbc7333ec1","download_url":"https://raw.githubusercontent.com/KGF271156/oneclickspain.com/main/data/news/barcelona.json","type":"file","content":"ewogICJwcm92aW5jZSI6ICJCYXJjZWxvbmEiLAogICJyZWdpb25fc2x1ZyI6\nICJjYXRhbG9uaWEiLAogICJzdG9yaWVzIjogWwogICAgewogICAgICAidGl0\nbGVfZW4iOiAiV2VsY29tZSB0byBCYXJjZWxvbmEncyBsb2NhbCBuZXdzIGZl\nZWQiLAogICAgICAic3VtbWFyeV9lbiI6ICJUaGlzIGlzIGEgcGxhY2Vob2xk\nZXIgc3RvcnkuIE9uY2UgdGhlIE1ha2UuY29tIHBpcGVsaW5lIGlzIGNvbm5l\nY3RlZCwgcmVhbCBsb2NhbCBuZXdzIGZvciBCYXJjZWxvbmEgcHJvdmluY2Ug\nd2lsbCBhcHBlYXIgaGVyZSBhdXRvbWF0aWNhbGx5LiIsCiAgICAgICJ0aXRs\nZV9lcyI6ICJCaWVudmVuaWRvIGFsIGZlZWQgZGUgbm90aWNpYXMgbG9jYWxl\ncyBkZSBCYXJjZWxvbmEiLAogICAgICAic3VtbWFyeV9lcyI6ICJFc3RhIGVz\nIHVuYSBub3RpY2lhIGRlIGVqZW1wbG8uIEN1YW5kbyBzZSBjb25lY3RlIGxh\nIGF1dG9tYXRpemFjacOzbiBkZSBNYWtlLmNvbSwgbGFzIG5vdGljaWFzIGxv\nY2FsZXMgcmVhbGVzIGRlIGxhIHByb3ZpbmNpYSBkZSBCYXJjZWxvbmEgYXBh\ncmVjZXLDoW4gYXF1w60gYXV0b23DoXRpY2FtZW50ZS4iLAogICAgICAibGlu\nayI6ICIiLAogICAgICAic291cmNlIjogIk9uZUNsaWNrU3BhaW4iLAogICAg\nICAiZGF0ZSI6ICIyMDI2LTA5LTA5IgogICAgfQogIF0KfQo=\n","encoding":"base64","_links":{"self":"https://api.github.com/repos/KGF271156/oneclickspain.com/contents/data/news/barcelona.json?ref=main","git":"https://api.github.com/repos/KGF271156/oneclickspain.com/git/blobs/f91163cd40d5ebff918716eba3fe05fbc7333ec1","html":"https://github.com/KGF271156/oneclickspain.com/blob/main/data/news/barcelona.json"}}
