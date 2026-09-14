@@ -3,12 +3,22 @@
   "region_slug": "catalonia",
   "stories": [
     {
-      "title_en": "Welcome to Barcelona's local news feed",
-      "summary_en": "This is a placeholder story. Once the Make.com pipeline is connected, real local news for Barcelona province will appear here automatically.",
-      "title_es": "Bienvenido al feed de noticias locales de Barcelona",
-      "summary_es": "Esta es una noticia de ejemplo. Cuando se conecte la automatización de Make.com, las noticias locales reales de la provincia de Barcelona aparecerán aquí automáticamente.",
-      "link": "",
-      "source": "OneClickSpain",
-      "date": "2026-09-09"
+      "title_en": "Explained: Catalonia's Drought Water Restrictions",
+      "summary_en": "Catalonia has activated an emergency drought plan that introduces water restrictions affecting around 6 million people, many of them in Barcelona province, starting Friday, February 2nd. A detailed drought map and set of rules outline exactly which areas and usages are affected.",
+      "title_es": "Explicado: Las restricciones de agua por sequía en Cataluña",
+      "summary_es": "Cataluña ha activado un plan de emergencia por sequía que introduce restricciones de agua que afectarán a unos 6 millones de personas, muchas de ellas en la provincia de Barcelona, a partir del viernes 2 de febrero. Un mapa detallado de la sequía y una serie de normas explican exactamente qué zonas y usos se ven afectados.",
+      "link": "https://www.thelocal.com/20240202/explained-what-and-where-are-the-drought-water-restrictions-in-catalonia",
+      "source": "The Local",
+      "date": "2 February 2024"
+    },
+    {
+      "title_en": "New Barcelona-Paris Train Link Delayed Until After Olympics",
+      "summary_en": "A planned direct rail route between Barcelona and Paris, originally set to launch in time for the Summer Olympics, has been postponed due to delays in France. A separate new sleeper train service between Barcelona and Amsterdam has also been pushed back.",
+      "title_es": "El nuevo enlace ferroviario Barcelona-París se retrasa hasta después de los Juegos Olímpicos",
+      "summary_es": "La ruta ferroviaria directa prevista entre Barcelona y París, que iba a estrenarse a tiempo para los Juegos Olímpicos de verano, se ha retrasado debido a contratiempos en Francia. Otro nuevo tren nocturno entre Barcelona y Ámsterdam también ha sufrido demoras.",
+      "link": "https://www.thelocal.com/20240416/spains-barcelona-paris-train-link-delayed-until-after-olympics",
+      "source": "The Local",
+      "date": "16 April 2024"
     }
-  ,{"title_en":"","summary_en":"","title_es":"","summary_es":"","link":"","source":"","date":""},{"title_en":"","summary_en":"","title_es":"","summary_es":"","link":"","source":"","date":""},{"title_en":"","summary_en":"","title_es":"","summary_es":"","link":"","source":"","date":""},{"title_en":"","summary_en":"","title_es":"","summary_es":"","link":"","source":"","date":""},{"title_en":"","summary_en":"","title_es":"","summary_es":"","link":"","source":"","date":""},{"title_en":"","summary_en":"","title_es":"","summary_es":"","link":"","source":"","date":""},{"title_en":"Explained: Catalonia's Drought Water Restrictions","summary_en":"Catalonia has activated an emergency drought plan that introduces water restrictions affecting around 6 million people, many of them in Barcelona province, starting Friday, February 2nd. A detailed drought map and set of rules outline exactly which areas and usages are affected.","title_es":"Explicado: Las restricciones de agua por sequía en Cataluña","summary_es":"Cataluña ha activado un plan de emergencia por sequía que introduce restricciones de agua que afectarán a unos 6 millones de personas, muchas de ellas en la provincia de Barcelona, a partir del viernes 2 de febrero. Un mapa detallado de la sequía y una serie de normas explican exactamente qué zonas y usos se ven afectados.","link":"https://www.thelocal.com/20240202/explained-what-and-where-are-the-drought-water-restrictions-in-catalonia","source":"The Local","date":"2024-02-02T10:27:53.000Z"},{"title_en":"New Barcelona-Paris Train Link Delayed Until After Olympics","summary_en":"A planned direct rail route between Barcelona and Paris, originally set to launch in time for the Summer Olympics, has been postponed due to delays in France. A separate new sleeper train service between Barcelona and Amsterdam has also been pushed back.","title_es":"El nuevo enlace ferroviario Barcelona-París se retrasa hasta después de los Juegos Olímpicos","summary_es":"La ruta ferroviaria directa prevista entre Barcelona y París, que iba a estrenarse a tiempo para los Juegos Olímpicos de verano, se ha retrasado debido a contratiempos en Francia. Otro nuevo tren nocturno entre Barcelona y Ámsterdam también ha sufrido demoras.","link":"https://www.thelocal.com/20240416/spains-barcelona-paris-train-link-delayed-until-after-olympics","source":"The Local","date":"2024-04-16T13:05:14.000Z"}]}
+  ]
+}
