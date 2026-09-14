@@ -1,5 +1,15 @@
 {
   "province": "Girona",
   "region_slug": "catalonia",
-  "stories": []
+  "stories": [
+    {
+      "title_en": "Welcome to Girona's local news feed",
+      "summary_en": "This is a placeholder story. Once the Make.com pipeline is connected, real local news for Girona province will appear here automatically.",
+      "title_ca": "Benvinguts al feed de notícies locals de Girona",
+      "summary_ca": "Aquesta és una notícia d'exemple. Quan es connecti l'automatització de Make.com, les notícies locals reals de la província de Girona apareixeran aquí automàticament.",
+      "link": "",
+      "source": "OneClickSpain",
+      "date": "2026-09-14"
+    }
+  ]
 }
