@@ -18,8 +18,6 @@
   --azulejo:    #1C4E4A;
   --azulejo-light: #2E6E67;
   --line:       rgba(43, 33, 28, 0.14);
-   --flag-red:   #AA151B;
-   --flag-yellow:#F1BF00;
 
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -91,31 +89,12 @@ p {
 }
 
 .site-header__inner {
- @keyframes flag-drift {
-  0%   { background-position: 0 0; }
-  100% { background-position: 120px 0; }
-}
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 40;
-  background:
-    repeating-linear-gradient(
-      -45deg,
-      rgba(170, 21, 27, 0.10) 0px, rgba(170, 21, 27, 0.10) 14px,
-      rgba(241, 191, 0, 0.14) 14px, rgba(241, 191, 0, 0.14) 28px,
-      rgba(170, 21, 27, 0.10) 28px, rgba(170, 21, 27, 0.10) 42px
-    ),
-    var(--paper);
-  background-size: 200% 200%, 100% 100%;
-  animation: flag-drift 14s linear infinite;
-  border-bottom: 1px solid var(--line);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .site-header { animation: none; }
-}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  max-width: var(--container);
+  margin: 0 auto;
 }
 
 .brand {
@@ -186,21 +165,8 @@ p {
 .hero {
   position: relative;
   overflow: hidden;
-  background:
-    repeating-linear-gradient(
-      -45deg,
-      rgba(170, 21, 27, 0.10) 0px, rgba(170, 21, 27, 0.10) 14px,
-      rgba(241, 191, 0, 0.14) 14px, rgba(241, 191, 0, 0.14) 28px,
-      rgba(170, 21, 27, 0.10) 28px, rgba(170, 21, 27, 0.10) 42px
-    ),
-    linear-gradient(180deg, var(--paper) 0%, var(--paper-dim) 100%);
-  background-size: 200% 200%, 100% 100%;
-  animation: flag-drift 14s linear infinite;
+  background: linear-gradient(180deg, var(--paper) 0%, var(--paper-dim) 100%);
   border-bottom: 1px solid var(--line);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero { animation: none; }
 }
 
 .hero__inner {
