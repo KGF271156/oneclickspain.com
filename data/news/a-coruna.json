@@ -1,0 +1,15 @@
+{
+  "province": "A Coruña",
+  "region_slug": "galicia",
+  "stories": [
+    {
+      "title_en": "Welcome to A Coruña's local news feed",
+      "summary_en": "Local news for A Coruña province will appear here once our news feed is connected.",
+      "title_es": "Bienvenidos al feed de noticias locales de A Coruña",
+      "summary_es": "Las noticias locales de la provincia de A Coruña aparecerán aquí cuando conectemos el feed.",
+      "link": "",
+      "source": "OneClickSpain",
+      "date": "2026-11-23"
+    }
+  ]
+}

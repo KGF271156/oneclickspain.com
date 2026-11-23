@@ -1,0 +1,15 @@
+{
+  "province": "Ourense",
+  "region_slug": "galicia",
+  "stories": [
+    {
+      "title_en": "Welcome to Ourense's local news feed",
+      "summary_en": "Local news for Ourense province will appear here once our news feed is connected.",
+      "title_es": "Bienvenidos al feed de noticias locales de Ourense",
+      "summary_es": "Las noticias locales de la provincia de Ourense aparecerán aquí cuando conectemos el feed.",
+      "link": "",
+      "source": "OneClickSpain",
+      "date": "2026-11-23"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "province": "Pontevedra",
+  "region_slug": "galicia",
+  "stories": [
+    {
+      "title_en": "Welcome to Pontevedra's local news feed",
+      "summary_en": "Local news for Pontevedra province will appear here once our news feed is connected.",
+      "title_es": "Bienvenidos al feed de noticias locales de Pontevedra",
+      "summary_es": "Las noticias locales de la provincia de Pontevedra aparecerán aquí cuando conectemos el feed.",
+      "link": "",
+      "source": "OneClickSpain",
+      "date": "2026-11-23"
+    }
+  ]
+}
