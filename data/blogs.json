@@ -1,0 +1,55 @@
+{
+ "site": "OneClick Spain",
+ "base": "https://oneclickspain.com",
+ "note": "Read by one-click-world.com to show the latest stories. 'from' = when the post goes live (UTC); add new posts at the end.",
+ "blogs": [
+  {
+   "url": "/culture/ireland-remembers-spain.html",
+   "title": "Why the Irish Came to Spain: The Irish Side of the Story",
+   "blurb": "Kinsale, A Coruña and the families who crossed the sea: how Ireland remembers Spain.",
+   "tag": "History",
+   "image": "/assets/blog/santiago-knight.jpg",
+   "from": "2026-11-17T00:00:00Z"
+  },
+  {
+   "url": "/culture/irish-families-who-became-spanish.html",
+   "title": "The Irish Families Who Became Part of Spain",
+   "blurb": "Part Two of Ireland & Spain: 500 Years of Shared History.",
+   "tag": "History",
+   "image": "/assets/blog/santiago-knight.jpg",
+   "from": "2026-11-18T00:00:00Z"
+  },
+  {
+   "url": "/culture/surname-call.html",
+   "title": "Do You Have an Irish or Spanish Surname With a Story?",
+   "blurb": "Readers' call-out: unusual surnames and family connections between Ireland and Spain.",
+   "tag": "Community",
+   "image": "/assets/blog/santiago-knight.jpg",
+   "from": "2026-11-24T00:00:00Z"
+  },
+  {
+   "url": "/culture/galicia-basque-atlantic-kitchens.html",
+   "title": "Galicia & the Basque Country: Atlantic Kitchens",
+   "blurb": "Pulpo, empanada, marmitako and the Atlantic table that Spain shares with Ireland.",
+   "tag": "Food",
+   "image": "/assets/blog/food-polbo.jpg",
+   "from": "2026-11-26T09:00:00Z"
+  },
+  {
+   "url": "/culture/marmitako-fishermens-dinner.html",
+   "title": "Marmitako: the Fisherman's Dinner",
+   "blurb": "The Basque tuna-and-potato stew born on the fishing boats.",
+   "tag": "Food",
+   "image": "/assets/blog/food-marmitako.jpg",
+   "from": "2026-11-26T09:00:00Z"
+  },
+  {
+   "url": "/culture/music-of-galicia.html",
+   "title": "The Music of Galicia: the Gaita, the Muiñeira and the Irish Connection",
+   "blurb": "Bagpipes, dances, the cantareiras and The Chieftains' Santiago. With five videos.",
+   "tag": "Music",
+   "image": "/assets/blog/trad-session-banner.jpg",
+   "from": "2026-11-29T10:00:00Z"
+  }
+ ]
+}
